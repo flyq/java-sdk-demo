@@ -15,7 +15,7 @@ import java.util.Random;
 
 public class App {
     public static void main(String[] args) throws IOException {
-	CITAj citaService = CITAj.build(new HttpService("http://101.132.38.100:1337"));
+	CITAj citaService = CITAj.build(new HttpService("http://x.x.x.x:1337")); 		// http://x.x.x.x:1337 需要改为节点的RPC接口或者缓存服务器接口
 	String to = "0xa00f716b4925e4fe59d9238766e94219d22daa6e";
 	Random r = new Random();
 	String nonce = String.valueOf(Math.abs(r.nextLong()));
