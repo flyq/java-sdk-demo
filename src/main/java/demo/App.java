@@ -35,6 +35,6 @@ public class App {
 	String rawTx = tx.sign(privateKey);
 	String txHash  = citaService.appSendRawTransaction(rawTx).send().getSendTransactionResult().getHash();
 
-	System.out.printf("txHash");
+	System.out.printf("%s", txHash);
     }
 }
