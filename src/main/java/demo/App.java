@@ -27,6 +27,9 @@ public class App {
 	int version = appMetaData.getAppMetaDataResult().getVersion();
 	BigInteger chainId = BigInteger.valueOf(1);
 	String value = "1000000000000000000000";
+
+	// String dataS = "evidence="+evidence.getEvidence()+"&timestamp="+evidence.getTimestamp();
+	// String data = String.valueOf(Hex.encodeHex(dataS.getBytes(StandardCharsets.UTF_8)));
 	String data = "0x65766964656e63653d65766964656e63617368646630386165342674696d657374616d703d3137383332353130333237";
 
 
