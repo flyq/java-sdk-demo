@@ -73,3 +73,8 @@ cd java-sdk-demo/
 ```
 
 然后就可以从区块链浏览器上查看对应的交易了。
+https://scan.taidihub.com/ 然后输入交易 hash 搜索。
+
+```gradlehash
+```gradles后
+```gradle
